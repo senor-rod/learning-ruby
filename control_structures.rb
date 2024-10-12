@@ -8,9 +8,14 @@ else
     puts "Go to work"
 end
 
-number = 12
+number = 1
 puts (number.class)
 
+if number.class == Integer
+    puts "Integer"
+else
+    puts "String"
+end
 
 if number == 0
     puts "Zero"
